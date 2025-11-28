@@ -63,15 +63,18 @@
 ### Output
 
 ### Output
-=== Image Analysis === 
-Entropy (coding redundancy)
-Spatial similarity score
-Chosen Compression Method 
-=== Results ===
-Original size
-Compressed size
-Compression ratio 
-Redundancy
+### Output
+
+Image Analysis:<br>
+- Entropy (coding redundancy)<br>
+- Spatial similarity score<br>
+- Chosen compression method<br>
+
+Results:<br>
+- Original size (bytes)<br>
+- Estimated compressed size (bytes)<br>
+- Compression ratio<br>
+- Redundancy percentage<br>
 
 
 
