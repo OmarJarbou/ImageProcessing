@@ -35,3 +35,40 @@
 - `q`: quit
 - `+`: increase posterization (fewer intensity bands, more stylized)
 - `-`: decrease posterization (more intensity bands)
+
+
+## Image Compression & Redundancy Analysis Demo
+
+`part2.py` analyzes a grayscale image to detect redundancy and applies an appropriate **lossless compression** method (RLE, Huffman, or DPCM + Huffman). It then displays compression results including original & compressed size, compression ratio, and redundancy percentage.
+
+---
+
+### Requirements
+- Python 3.12+  
+- Packages: `opencv-python`, `numpy`  
+
+---
+
+### Setup
+1. Open a terminal and move into the project folder:
+    ```
+   cd C:\Users\User\Documents\MyProjects\ImageProcessing
+   ```
+2. Install dependencies:
+   ```
+   pip install opencv-python numpy
+   ```
+### Run
+1. Ensure the input image exists and no other application is locking the file.  
+2. Open a terminal and navigate to the project folder:
+
+### Output
+
+Original size (bytes)
+Estimated compressed size (bytes)
+Compression ratio
+Redundancy percentage
+
+
+   
+
