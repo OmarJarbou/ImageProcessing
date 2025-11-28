@@ -41,13 +41,11 @@
 
 `part2.py` analyzes a grayscale image to detect redundancy and applies an appropriate **lossless compression** method (RLE, Huffman, or DPCM + Huffman). It then displays compression results including original & compressed size, compression ratio, and redundancy percentage.
 
----
 
 ### Requirements
 - Python 3.12+  
 - Packages: `opencv-python`, `numpy`  
 
----
 
 ### Setup
 1. Open a terminal and move into the project folder:
@@ -64,10 +62,17 @@
 
 ### Output
 
-Original size (bytes)
-Estimated compressed size (bytes)
-Compression ratio
-Redundancy percentage
+### Output
+=== Image Analysis === 
+Entropy (coding redundancy)
+Spatial similarity score
+Chosen Compression Method 
+=== Results ===
+Original size
+Compressed size
+Compression ratio 
+Redundancy
+
 
 
    
