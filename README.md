@@ -61,10 +61,6 @@
 2. Open a terminal and navigate to the project folder:
 
 ### Output
-
-### Output
-### Output
-
 Image Analysis:<br>
 - Entropy (coding redundancy)<br>
 - Spatial similarity score<br>
