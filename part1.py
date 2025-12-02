@@ -133,8 +133,10 @@ while True:
         break
     elif key == ord('+'):
         k = max(k - 1, 0)
+        print(f"k: {k} Intensity levels: {lvls[k]}")
     elif key == ord('-'):
         k = min(k + 1, len(lvls) - 1)
+        print(f"k: {k} Intensity levels: {lvls[k]}")
 
 cap.release()
 cv2.destroyAllWindows()

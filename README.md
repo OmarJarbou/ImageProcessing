@@ -5,9 +5,10 @@
 ### Requirements
 - Python 3.9+ (works cross-platform; instructions below use PowerShell syntax)
 - A webcam accessible by OpenCV
-- Packages: `opencv-python`, `numpy`
+- Packages: `opencv-python`, `numpy` , `scikit-learn`
 
 ### Setup
+0. INSURE YOU HAVE THIS PYTHON VERSION: python 3.13.5
 1. Open a terminal and move into the project folder:
    ```
    cd C:\Users\User\Documents\MyProjects\ImageProcessing
@@ -19,7 +20,8 @@
    ```
 3. Install dependencies:
    ```
-   pip install opencv-python numpy
+   python -m pip install --upgrade pip
+   pip install opencv-python numpy scikit-learn
    ```
 
 ### Run
